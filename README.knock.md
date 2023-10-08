@@ -42,4 +42,11 @@ yarn add -WD scripty
 chmod -R +x scripts/greet
 
 yarn lerna repair
+
+# commitlint
+yarn add -WD @commitlint/cli @commitlint/config-conventional @commitlint/config-lerna-scopes commitlint husky lerna-changelog
+
+
+echo "build(api): change something in api's build" | yarn commitlint
+echo "feat(types): more reasonable default types for generics" | yarn commitlint
 ```
