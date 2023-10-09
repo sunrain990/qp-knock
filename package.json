@@ -7,9 +7,8 @@
   "author": "qpjoy996 <qpjoy996@163.com>",
   "license": "MIT",
   "private": "true",
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
+  "nohoist1": ["packages/**"],
   "devDependencies": {
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",

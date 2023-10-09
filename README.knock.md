@@ -49,4 +49,17 @@ yarn add -WD @commitlint/cli @commitlint/config-conventional @commitlint/config-
 
 echo "build(api): change something in api's build" | yarn commitlint
 echo "feat(types): more reasonable default types for generics" | yarn commitlint
-```
+
+
+lerna publish --conventional-commits
+lerna exec 'yarn publish'
+
+# install verdaccio
+
+git commit -m 'feat(types): faster type guard for isTypedArray'
+git commit -m 'chore: independent versioning'
+
+
+
+rm -rf ~/.local/share/verdaccio
+``` 
