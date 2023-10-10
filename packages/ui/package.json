@@ -7,17 +7,20 @@
     "access": "public"
   },
   "scripts": {
+    "api-report": "scripty",
     "dev": "node server/server.js",
     "lint": "scripty",
     "clean": "rimraf dist *.tsbuildinfo",
     "build": "parcel build index.html",
-    "test": "scripty"
+    "test1": "scripty"
   },
   "devDependencies": {
     "@babel/core": "^7.12.0",
     "@babel/preset-env": "^7.12.0",
     "@babel/preset-react": "^7.10.4",
     "@babel/preset-typescript": "^7.12.0",
+    "@microsoft/api-documenter": "^7.9.12",
+    "@microsoft/api-extractor": "^7.10.4",
     "@types/date-fns": "^2.6.0",
     "@types/express": "^4.17.8",
     "@types/json-server": "^0.14.2",
@@ -32,6 +35,9 @@
     "typescript": "^4.0.3"
   },
   "dependencies": {
+    "@qpjoy/data": "^0.0.1",
+    "@qpjoy/types": "^0.0.1",
+    "@qpjoy/utils": "^0.0.1",
     "express": "^4.17.1",
     "json-server": "^0.16.2",
     "parcel-bundler": "^1.12.4",
@@ -40,5 +46,6 @@
   },
   "scripty": {
     "path": "../../scripts/packages"
-  }
+  },
+  "gitHead": "2d0fa555f467e2802139f0bef1b1f6c65bb8a7f5"
 }

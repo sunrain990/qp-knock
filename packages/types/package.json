@@ -1,6 +1,6 @@
 {
   "name": "@qpjoy/types",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "publishConfig": {
@@ -8,6 +8,7 @@
   },
   "scripts": {
     "clean": "rimraf dist *.tsbuildinfo",
+    "rm": "scripty",
     "test": "scripty",
     "lint": "scripty",
     "build": "scripty"

@@ -7,8 +7,13 @@
   "author": "qpjoy996 <qpjoy996@163.com>",
   "license": "MIT",
   "private": "true",
-  "workspaces": ["packages/*"],
-  "nohoist1": ["packages/**"],
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "nohoist1": [
+    "packages/**"
+  ],
   "devDependencies": {
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
@@ -21,7 +26,8 @@
     "lerna": "^7.3.0",
     "lerna-changelog": "^2.2.0",
     "rimraf": "^5.0.5",
-    "scripty": "^2.1.1"
+    "scripty": "^2.1.1",
+    "workspace-resolver": "^0.0.4"
   },
   "scripts": {
     "greet": "scripty",
@@ -30,6 +36,7 @@
     "test": "scripty",
     "lint": "scripty",
     "clean": "scripty",
+    "rm": "scripty",
     "commit": "cz"
   },
   "scripty": {

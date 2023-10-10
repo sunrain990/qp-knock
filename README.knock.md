@@ -62,4 +62,10 @@ git commit -m 'chore: independent versioning'
 
 
 rm -rf ~/.local/share/verdaccio
+verdaccio
+
+npm config set registry https://registry.npmjs.org
+
+npm config get registry
+# https://registry.npmmirror.com/
 ``` 
