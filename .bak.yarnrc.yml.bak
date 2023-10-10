@@ -1,5 +1,0 @@
-nodeLinker: node-modules
-nmHoistingLimits: workspaces
-npmRegistryServer: "http://localhost:4873/"
-unsafeHttpWhitelist:
-  - localhost:4873
