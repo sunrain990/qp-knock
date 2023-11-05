@@ -11,9 +11,6 @@
     "packages/*",
     "apps/*"
   ],
-  "nohoist1": [
-    "packages/**"
-  ],
   "devDependencies": {
     "@commitlint/cli": "^17.7.2",
     "@commitlint/config-conventional": "^17.7.0",
